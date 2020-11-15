@@ -14,11 +14,11 @@ where ![](https://render.githubusercontent.com/render/math?math=\beta) is the in
 
 In this expression the sum runs over all the microstates and ![](https://render.githubusercontent.com/render/math?math=M(\mathbf{x}_j)) is the magnetisation of microstate ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_j).  
 
-To complete the code in the box on the left you will need to complete the function called `magnetisation`, which calculates the magnetisation from the microscopic coordinates for the spins, and the function called hamiltonian, which computes the Hamiltonian for a 1D Ising model in a magnetic field, H:
+To complete the code in the box on the left you will need to complete the function called `magnetisation`, which calculates the magnetisation from the microscopic coordinates for the `spins`, and the function called `hamiltonian`, which computes the Hamiltonian for a 1D Ising model in a magnetic field, `H`:
 
-As always s_{N+1} = s_1.
+As always ![](https://render.githubusercontent.com/render/math?math=s_{N%2B1}=s_1).
 
-Once you have written the code to calculate the magnetisation and the Hamiltonian you will need to write code to generate every possible microstate a system of N=8 spins can adopt.  You will need to use your magnetisation function to evaluate the magnetisation for each of these microstates and your hamiltonian to evaluate the energy of each microstate.  For each microstate you will then need to calculate the numerator in the expression for the probability above and add this to the appropriate element of the list called probabilities and to the variable called Z.  These two variables will eventually hold the unormalised probability of having each of the possible values for the magnetisation and the partition function respectively.   As you can see I have already written code that will calculate and plot the normalised probabilities for you.
+Once you have written the code to calculate the magnetisation and the Hamiltonian you will need to write code to generate every possible microstate a system of N=8 spins can adopt.  You will need to use your `magnetisation` function to evaluate the magnetisation for each of these microstates and your `hamiltonian` function to evaluate the energy of each microstate.  For each microstate you will then need to calculate the numerator in the expression for the probability above and add this to the appropriate element of the list called `probabilities` and to the variable called `Z`.  These two variables will eventually hold the unormalised probability of having each of the possible values for the magnetisation and the partition function respectively.   As you can see I have already written code that will calculate and plot the normalised probabilities for you.
 
 Your calculations should be completed at a temperature T=1.5 and with a magnetic field H=0.2.
 
