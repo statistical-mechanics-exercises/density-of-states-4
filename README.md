@@ -6,11 +6,11 @@ The reason for this discrepancy is hopefully obvious - when we calculated the di
 
 We can answer this question by recognising that when the temperature and magnetic field are fixed the probabilities of being in all the microstates are not equal.  Instead, the probability of being in microstate ![](https://render.githubusercontent.com/render/math?math=x_i) is given by:
 
-![](https://render.githubusercontent.com/render/math?math=P(\mathbf{x}_i)=\frac{e^{-\betaH(\mathbf{x_i)}}{Z})
+![](https://render.githubusercontent.com/render/math?math=P(\mathbf{x}_i)=\frac{e^{-\beta\H(\mathbf{x_i)}}{Z})
 
 where ![](https://render.githubusercontent.com/render/math?math=\beta) is the inverse temperature, ![](https://render.githubusercontent.com/render/math?math=H(\mathbf{x}_i)) is the Hamiltonian and where ![](https://render.githubusercontent.com/render/math?math=Z) is the canonical partition function.  As such if the temperature and magnetic field are set to constant values the probability of having a particular value, ![](https://render.githubusercontent.com/render/math?math=M_i), for the magnetisation can be calculated as:
 
-![](https://render.githubusercontent.com/render/math?math=P(M_i)=\frac{1}{Z}\sum_{j=1}^M\delta(M(\mathbf{x}_j-M_i)e^{-\beta\H(\mathbf{x}_j)}\qquad\textrm{where}\delta(0)=1\quad\textrm{and}\delta(x)=0\qquad\textrm{if}\quad\x\ne\0)
+![](https://render.githubusercontent.com/render/math?math=P(M_i)=\frac{1}{Z}\sum_{j=1}^M\delta(M(\mathbf{x}_j-M_i)e^{-\beta\H(\mathbf{x}_j)})
 
 In this expression the sum runs over all the microstates and ![](https://render.githubusercontent.com/render/math?math=M(\mathbf{x}_j)) is the magnetisation of microstate ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_j).  
 
