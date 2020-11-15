@@ -10,7 +10,7 @@ We can answer this question by recognising that when the temperature and magneti
 
 where ![](https://render.githubusercontent.com/render/math?math=\beta) is the inverse temperature, ![](https://render.githubusercontent.com/render/math?math=H(\mathbf{x}_i)) is the Hamiltonian and where ![](https://render.githubusercontent.com/render/math?math=Z) is the canonical partition function.  As such if the temperature and magnetic field are set to constant values the probability of having a particular value, ![](https://render.githubusercontent.com/render/math?math=M_i), for the magnetisation can be calculated as:
 
-![](https://render.githubusercontent.com/render/math?math=P(M_i)=\frac{1}{Z}\sum_{j=1}^M\delta(M(\mathbf{x}_j-M_i)e^{-\beta\H(\mathbf{x}_j)})
+![](https://render.githubusercontent.com/render/math?math=P(M_i)=\frac{1}{Z}\sum_{j=1}^M\delta(M(\mathbf{x}_j-M_i))
 
 In this expression the sum runs over all the microstates and ![](https://render.githubusercontent.com/render/math?math=M(\mathbf{x}_j)) is the magnetisation of microstate ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_j).  
 
